@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "52c40670570e4107",
+    "type": "split",
+    "children": [
+      {
+        "id": "d81eba9a931ab101",
+        "type": "tabs",
+        "dimension": 69.40298507462687,
+        "children": [
+          {
+            "id": "a7f4eaad2d763f3e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "468a6f66b783ec6c",
+        "type": "tabs",
+        "dimension": 30.59701492537313,
+        "children": [
+          {
+            "id": "ca7542dcb9163536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian_methods/math_syntax.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bdc27f30ec9f48b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "587405026c4a139b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df436ed7dbf124f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "141e19c9b3153f7f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae3cfc8439787b8d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 222.5
+  },
+  "right": {
+    "id": "9e59b0868aa407f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a6714cc11eef3fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2add77b415d188e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cf2b44959d09c286",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4aa1ba08e70ad511",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fe23679320ba14c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "5982c9c207dd5227",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2a5dc2d3f54085e3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "zk-prefixer:Crear nueva nota única": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "a7f4eaad2d763f3e",
+  "lastOpenFiles": [
+    "README.md",
+    "obsidian_methods/math_syntax.md",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.4_self_contained_scripts_First_line.md",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.3_a_simple_script.md",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.2_why_use_shell_script.md",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.1_scripting_languages_vs_compiled_languages.md",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/0_information.md",
+    "Bash_script/Shell_Scripting_Oreilly/01_background/1.2_sofware_tools_principles.md",
+    "Bash_script/Shell_Scripting_Oreilly/01_background/1.1_unix_history.md",
+    "Bash_script/Shell_Scripting_Oreilly/01_background/1.1.2_POSIX_and_XSI.md",
+    "Bash_script/Shell_Scripting_Oreilly/01_background/0_information.md",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.5_Basic_shell_constructs/2.5_Basic_shell_constructs",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.5_Basic_shell_constructs/2.5.1_standars_I_O_redirections.txt",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/nusers",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.5_Basic_shell_constructs",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.4_self_contained_scripts_First_line.txt",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.4_self_contained_scripts_First_line",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.3_a_simple_script.txt",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.2_why_use_shell_script.txt",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.1_scripting_languages_vs_compiled_languages.txt",
+    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/0_information.txt",
+    "markdownguide.md",
+    "2024-03-10.md",
+    "obsidian_methods/conexions_betwen_notes.md",
+    "obsidian_methods/description_of_zettelksten_method.md",
+    "basics_python/01_variables.md",
+    "obsidian_methods/video_math_plugins_how_to_use.md",
+    "obsidian_methods/plugins_math.md",
+    "obsidian_methods/math_syntax_1.md",
+    "obsidian_methods/markdownquide.md",
+    "obsidian_methods/web_pages.md",
+    "obsidian_methods/zettelksten_method.md",
+    "basics_python/23_statistics.md",
+    "Vim/lazy_vim.md",
+    "Vim/2.0_lazy_vim_neovim_instalacion.md",
+    "configuracion de lazy_vim.md",
+    "basics_python/17.3_characters_above.png",
+    "newstaff/17.3_characters_above.png",
+    "Sin título.canvas"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#linux_comandos  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#basics_python  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#tipos_de_archivos  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "tag:#protocolos_informaticos  ",
+      "color": {
+        "a": 1,
+        "rgb": 5399264
+      }
+    },
+    {
+      "query": "tag:#zettelksten_method  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:#bash_script  ",
+      "color": {
+        "a": 1,
+        "rgb": 9032181
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.6,
+  "nodeSizeMultiplier": 0.610416666666667,
+  "lineSizeMultiplier": 1.325,
+  "collapse-forces": false,
+  "centerStrength": 0.244791666666667,
+  "repelStrength": 9.47916666666667,
+  "linkStrength": 0.833333333333333,
+  "linkDistance": 221,
+  "scale": 0.29629629629629345,
+  "close": false
+}

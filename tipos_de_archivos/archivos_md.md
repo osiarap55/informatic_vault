@@ -1,0 +1,6 @@
+Los archivos .md son documentos de texto simple creados con el lenguaje Markdown. Estos archivos contienen formato de texto en un formato de marcado ligero, lo que los hace legibles tanto para humanos como para máquinas. Algunas características comunes incluyen la capacidad de agregar encabezados, listas, enlaces y formato de texto en negrita o cursiva.
+
+Estos archivos pueden abrirse y editarse con editores de texto simples como TextEdit, Notepad, Sublime Text o Vim[[2](https://programminghistorian.org/es/lecciones/introduccion-a-markdown)]. Además, son utilizados en plataformas como GitHub para la creación y edición de contenido, ya que admiten la sintaxis de escritura y formato básicos proporcionados por Markdown[[6](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)].
+
+Es esencial comprender que los archivos .md no contienen elementos adicionales y se centran en proporcionar una estructura clara y legible para la presentación de información[[1](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-un-archivo-md/)]. Además, son compatibles con varios editores y se utilizan ampliamente para la documentación, blogs y otros tipos de contenido textual en la web.
+#tipos_de_archivos
