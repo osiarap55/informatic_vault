@@ -179,6 +179,9 @@
   },
   "active": "a7f4eaad2d763f3e",
   "lastOpenFiles": [
+    "GIT/init_new_repository.md",
+    "GIT",
+    "init_new_repository.md",
     "README.md",
     "obsidian_methods/math_syntax.md",
     "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.4_self_contained_scripts_First_line.md",
@@ -199,7 +202,6 @@
     "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.3_a_simple_script.txt",
     "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.2_why_use_shell_script.txt",
     "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.1_scripting_languages_vs_compiled_languages.txt",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/0_information.txt",
     "markdownguide.md",
     "2024-03-10.md",
     "obsidian_methods/conexions_betwen_notes.md",
@@ -213,8 +215,6 @@
     "obsidian_methods/zettelksten_method.md",
     "basics_python/23_statistics.md",
     "Vim/lazy_vim.md",
-    "Vim/2.0_lazy_vim_neovim_instalacion.md",
-    "configuracion de lazy_vim.md",
     "basics_python/17.3_characters_above.png",
     "newstaff/17.3_characters_above.png",
     "Sin título.canvas"
