@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d81eba9a931ab101",
+        "id": "246f3b8b5c5cf910",
         "type": "tabs",
-        "dimension": 69.40298507462687,
+        "dimension": 47.12153518123667,
         "children": [
           {
-            "id": "a7f4eaad2d763f3e",
+            "id": "e51d1984b30bc0bc",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -19,17 +19,17 @@
         ]
       },
       {
-        "id": "468a6f66b783ec6c",
+        "id": "aa3729fb84bbb7b3",
         "type": "tabs",
-        "dimension": 30.59701492537313,
+        "dimension": 52.87846481876333,
         "children": [
           {
-            "id": "ca7542dcb9163536",
+            "id": "1d449208d2415f5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian_methods/math_syntax.md",
+                "file": "python/19_python_package_manager.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 217.5
   },
   "right": {
     "id": "9e59b0868aa407f0",
@@ -101,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "python/19_python_package_manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "python/19_python_package_manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "python/19_python_package_manager.md"
+              }
             }
           },
           {
@@ -177,44 +181,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a7f4eaad2d763f3e",
+  "active": "1d449208d2415f5e",
   "lastOpenFiles": [
-    "GIT/init_new_repository.md",
-    "GIT",
-    "init_new_repository.md",
-    "README.md",
-    "obsidian_methods/math_syntax.md",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.4_self_contained_scripts_First_line.md",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.3_a_simple_script.md",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.2_why_use_shell_script.md",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.1_scripting_languages_vs_compiled_languages.md",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/0_information.md",
-    "Bash_script/Shell_Scripting_Oreilly/01_background/1.2_sofware_tools_principles.md",
-    "Bash_script/Shell_Scripting_Oreilly/01_background/1.1_unix_history.md",
-    "Bash_script/Shell_Scripting_Oreilly/01_background/1.1.2_POSIX_and_XSI.md",
-    "Bash_script/Shell_Scripting_Oreilly/01_background/0_information.md",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.5_Basic_shell_constructs/2.5_Basic_shell_constructs",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.5_Basic_shell_constructs/2.5.1_standars_I_O_redirections.txt",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/nusers",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.5_Basic_shell_constructs",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.4_self_contained_scripts_First_line.txt",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.4_self_contained_scripts_First_line",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.3_a_simple_script.txt",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.2_why_use_shell_script.txt",
-    "Bash_script/Shell_Scripting_Oreilly/02_getting_started/2.1_scripting_languages_vs_compiled_languages.txt",
-    "markdownguide.md",
-    "2024-03-10.md",
-    "obsidian_methods/conexions_betwen_notes.md",
-    "obsidian_methods/description_of_zettelksten_method.md",
-    "basics_python/01_variables.md",
-    "obsidian_methods/video_math_plugins_how_to_use.md",
-    "obsidian_methods/plugins_math.md",
-    "obsidian_methods/math_syntax_1.md",
-    "obsidian_methods/markdownquide.md",
-    "obsidian_methods/web_pages.md",
-    "obsidian_methods/zettelksten_method.md",
-    "basics_python/23_statistics.md",
-    "Vim/lazy_vim.md",
+    "python/18_file_handing.md",
+    "python/18.1_example.txt",
+    "python/17_regular_expressions.md",
+    "python/16_exception_handling.md",
+    "python/16.1_exercice.md",
+    "python/15_python_datetime.md",
+    "python/14_python_type_errors.md",
+    "python/13_higher_order_functions.md",
+    "python/12_list_comprehension.md",
+    "python/11_modules.md",
+    "python/10_functions.md",
+    "python/09_loops.md",
+    "python/08_conditionals.md",
+    "python/07_dicts.md",
+    "python/19.2_creating_a_packages/__pycache__/greet.cpython-310.pyc",
+    "python/19.2_creating_a_packages/__pycache__/arithmetic.cpython-310.pyc",
+    "python/19.2_creating_a_packages/__pycache__/__init__.cpython-310.pyc",
+    "python/__pycache__/countriesss.cpython-310.pyc",
+    "python/Modules/seaborn.md",
+    "python/Modules/pandas.md",
+    "python/Modules/numpy.md",
+    "python/Modules/matplotlib.md",
+    "python/19.2_creating_a_packages/greet.md",
+    "python/19.2_creating_a_packages/arithmetic.md",
+    "python/19.2_creating_a_packages/__pycache__",
+    "python/19.2_creating_a_packages/__init__.md",
+    "python/presidents_data.json",
+    "python/countriesss.md",
+    "python/__pycache__",
+    "python/Modules",
+    "python/22_virtual_environment.md",
+    "python/21_web_scraping.md",
+    "python/21.1_exercices.md",
+    "python/20_classes_and_objects.md",
+    "python/20.1_exercices.md",
+    "python/19.2_creating_a_packages",
+    "python/17.3_characters_above.png",
     "basics_python/17.3_characters_above.png",
     "newstaff/17.3_characters_above.png",
     "Sin título.canvas"

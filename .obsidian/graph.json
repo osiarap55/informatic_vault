@@ -2,13 +2,13 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#linux_comandos  ",
+      "query": "tag:#bash_script  ",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -22,44 +22,44 @@
       }
     },
     {
-      "query": "tag:#tipos_de_archivos  ",
+      "query": "tag:#git  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "tag:#protocolos_informaticos  ",
+      "query": "tag:#linux_comandos  ",
       "color": {
         "a": 1,
-        "rgb": 5399264
+        "rgb": 5431378
       }
     },
     {
-      "query": "tag:#zettelksten_method  ",
+      "query": "tag:#protocolos_informaticos  ",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "tag:#bash_script  ",
+      "query": "tag:#zettelksten_method  ",
       "color": {
         "a": 1,
-        "rgb": 9032181
+        "rgb": 5419488
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.6,
-  "nodeSizeMultiplier": 0.610416666666667,
-  "lineSizeMultiplier": 1.325,
+  "textFadeMultiplier": -1.8,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.244791666666667,
-  "repelStrength": 9.47916666666667,
-  "linkStrength": 0.833333333333333,
-  "linkDistance": 221,
-  "scale": 0.19753086419752897,
-  "close": false
+  "centerStrength": 0.361735026041667,
+  "repelStrength": 14.5263671875,
+  "linkStrength": 0.544026692708333,
+  "linkDistance": 171,
+  "scale": 0.05813230321389027,
+  "close": true
 }
