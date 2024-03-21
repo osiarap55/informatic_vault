@@ -893,3 +893,5 @@ plt.show()
 ```
 
 #basics_python
+
+[[numpy]]

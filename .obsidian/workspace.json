@@ -4,34 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "246f3b8b5c5cf910",
-        "type": "tabs",
-        "dimension": 47.12153518123667,
-        "children": [
-          {
-            "id": "e51d1984b30bc0bc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "aa3729fb84bbb7b3",
         "type": "tabs",
-        "dimension": 52.87846481876333,
         "children": [
           {
             "id": "1d449208d2415f5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "b8602ff6b749439c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
               "state": {
-                "file": "python/19_python_package_manager.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.5.11"
               }
             }
           }
@@ -85,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 217.5,
+    "collapsed": true
   },
   "right": {
     "id": "9e59b0868aa407f0",
@@ -101,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/19_python_package_manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/19_python_package_manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "python/19_python_package_manager.md"
-              }
+              "state": {}
             }
           },
           {
@@ -183,42 +170,42 @@
   },
   "active": "1d449208d2415f5e",
   "lastOpenFiles": [
-    "python/18_file_handing.md",
-    "python/18.1_example.txt",
-    "python/17_regular_expressions.md",
-    "python/16_exception_handling.md",
-    "python/16.1_exercice.md",
-    "python/15_python_datetime.md",
-    "python/14_python_type_errors.md",
-    "python/13_higher_order_functions.md",
-    "python/12_list_comprehension.md",
-    "python/11_modules.md",
-    "python/10_functions.md",
-    "python/09_loops.md",
-    "python/08_conditionals.md",
-    "python/07_dicts.md",
-    "python/19.2_creating_a_packages/__pycache__/greet.cpython-310.pyc",
-    "python/19.2_creating_a_packages/__pycache__/arithmetic.cpython-310.pyc",
-    "python/19.2_creating_a_packages/__pycache__/__init__.cpython-310.pyc",
-    "python/__pycache__/countriesss.cpython-310.pyc",
-    "python/Modules/seaborn.md",
-    "python/Modules/pandas.md",
-    "python/Modules/numpy.md",
-    "python/Modules/matplotlib.md",
-    "python/19.2_creating_a_packages/greet.md",
-    "python/19.2_creating_a_packages/arithmetic.md",
-    "python/19.2_creating_a_packages/__pycache__",
-    "python/19.2_creating_a_packages/__init__.md",
-    "python/presidents_data.json",
-    "python/countriesss.md",
-    "python/__pycache__",
-    "python/Modules",
-    "python/22_virtual_environment.md",
-    "python/21_web_scraping.md",
-    "python/21.1_exercices.md",
-    "python/20_classes_and_objects.md",
-    "python/20.1_exercices.md",
-    "python/19.2_creating_a_packages",
+    "OperatingSystem_info/Linux_info/linux_comandos/comando_flujo_servidores.md",
+    "Security_info/segurity_tools/conrtafuegos_ufw.md",
+    "Security_info/NetWork_segurity/seguridad_dnssec.md",
+    "Security_info/NetWork_segurity",
+    "Security_info/segurity_tools/extraer_metadatos.md",
+    "Security_info/segurity_tools",
+    "Security_info/seguridad_dnssec.md",
+    "Network_Hardware_Troubleshooting_info/Troubleshooting.md",
+    "Network_Hardware_Troubleshooting_info/Linux_troubleshooting/dispositivos_sistemas_linux_PCI.md",
+    "Network_Hardware_Troubleshooting_info/Linux_troubleshooting",
+    "Network_Hardware_Troubleshooting_info/dispositivos_sistemas_linux_PCI.md",
+    "Network_Hardware_Troubleshooting_info",
+    "GIT/github-git-cheat-sheet.pdf",
+    "GIT/github-git-cheat-sheet.md",
+    "Networking_info/NetWorking.md",
+    "Networking_info/Servers_type/servidores_dns.md",
+    "Networking_info/Servers_type",
+    "Networking_info/Protocolos_info/deshabilitar_IPv6.md",
+    "python/24_pandas.md",
+    "Networking_info/Protocolos_info/puertos_para_conexiones_TCP_UDP.md",
+    "OperatingSystem_info/Linux_info/Linux.md",
+    "Networking_info/deshabilitar_IPv6.md",
+    "Bash_script/simbolos_especiales.md",
+    "OperatingSystem_info/Linux_info/crear_archivo_discovirtual.md",
+    "OperatingSystem_info/Linux_info/escritorio_cinammon.md",
+    "Security_info/navegacion_privada.md",
+    "Hardware_info/dispositivos_sistemas_linux_PCI.md",
+    "Networking_info/def_web_espejos.md",
+    "Security_info/extraer_metadatos.md",
+    "Networking_info/servidores_dns.md",
+    "Networking_info/puertos_para_conexiones_TCP_UDP.md",
+    "OperatingSystem_info/comando_flujo_servidores.md",
+    "SQL/second_lab.txt",
+    "SQL/mariadb.txt",
+    "SQL/first_lab_sqlinjection.txt",
+    "SQL/comandos_mysql.txt",
     "python/17.3_characters_above.png",
     "basics_python/17.3_characters_above.png",
     "newstaff/17.3_characters_above.png",
