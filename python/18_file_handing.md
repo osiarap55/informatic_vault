@@ -9,12 +9,12 @@ open("filename", mode) # mode(r, a, w, x, t, b) could be to read, write, update.
  * "a" - Append - Opens a file for appending, creates the file if it does not exist
  * "w" - Write - Opens a file for writing, creates the file if it does not exist
  * "x" - Create - Creates the specified file, returns an error if the file exists
-    "t" - Text - Default value. Text mode
-    "b" - Binary - Binary mode (e.g. images)
+ * "t" - Text - Default value. Text mode
+ * "b" - Binary - Binary mode (e.g. images)
 
 #### OPENING FILES FOR READING
 
-The default mode of open is reading, so we do not have to apecify "r" or "rt". I have created and saved a file named 18.1_example.txt in the files directory. Let us see how it is done:
+The default mode of open is reading, so we do not have to apecify "r" or "rt". I have created and saved a file named [[18.1_example.txt]] in the files directory. Let us see how it is done:
 
 ```python
 
@@ -151,7 +151,7 @@ File with txt extension is a very common form of data and we have covered it in 
 
 #### File with json Extension
 
-JSON stands for JavaScript Object Notation. Actually, it is a stringified JavaScript object or Python dictionary.
+JSON stands for JavaScript Object Notation. Actually, it is a stringified JavaScript object or Python dictionary.[[18.2_json_example.json]]
 
 #### Example
 
@@ -262,7 +262,7 @@ In the code above, we use encoding and indentation. Indentation makes the json f
 
 ### FILE WITH CSV EXTENSION
 
-CSV stands for comma separated values. CSV is a simple file format used to store tabular data, such as a spreadsheet or database. CSV is a very common data format in data science.
+CSV stands for comma separated values. CSV is a simple file format used to store tabular data, such as a spreadsheet or database. CSV is a very common data format in data science. [[18.3_csv_example.csv]]
 
 #### Exmaple:
 
@@ -292,7 +292,7 @@ with open("/home/paradiseland86/Documentos/Topicos/INFORMATICA/Python_info/newco
 
 ### FILE WITH XLSX EXTENSION
 
-To read excel files we need to install xlrd package. We will cover this after we cover package installing using pip.
+To read excel files we need to install xlrd package. We will cover this after we cover package installing using pip.[[18.4_xlsx_example.xls]]
 
 ```python
 
@@ -307,7 +307,7 @@ print(excel_book.sheet_names)
 
 ### FILE WITH XML EXTENSION
 
-XML is another structured data format which looks like HTML. In XML the tags are not predefined. The first line is an XML declaration. The person tag is the root of the XML. The person has a gender attribute. Example:XML
+XML is another structured data format which looks like HTML. In XML the tags are not predefined. The first line is an XML declaration. The person tag is the root of the XML. The person has a gender attribute. [[18.5_xml_example.xml]]
 
 ```python
 

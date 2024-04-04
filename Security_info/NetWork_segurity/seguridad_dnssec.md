@@ -14,4 +14,4 @@ A continuación, se explican los principales aspectos de DNSSEC:
 
 DNSSEC es una tecnología importante para mejorar la seguridad y la integridad del DNS, pero también agrega cierta complejidad a la administración de nombres de dominio y sistemas DNS. La implementación de DNSSEC requiere un conocimiento técnico adecuado y puede tener costos asociados, pero proporciona una capa adicional de seguridad en la infraestructura de Internet.
 #network_segurity
-[[servidores_dns]]
+[[servidores_dnsti]]

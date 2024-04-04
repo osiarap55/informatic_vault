@@ -1,2 +1,0 @@
-#protocolos_informaticos
-#servers_type

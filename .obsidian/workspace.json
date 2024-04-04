@@ -4,41 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "aa3729fb84bbb7b3",
+        "id": "c2fec03e9281cd5f",
         "type": "tabs",
+        "dimension": 62.420042643923246,
         "children": [
           {
-            "id": "1d449208d2415f5e",
+            "id": "c0e416f10f2b9a12",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "b8602ff6b749439c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
           }
         ]
       },
       {
-        "id": "047642aa939d6820",
+        "id": "d48f5319c133af05",
         "type": "tabs",
+        "dimension": 37.57995735607676,
         "children": [
           {
-            "id": "1213fe1a0651295d",
+            "id": "5d43491c0eb181b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CloudComputing_info/cloud_platform_service/hekoru_info.md",
+                "file": "python/frameworks/25_flask.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -72,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#representaciones_graficas_R",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,50 +179,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1d449208d2415f5e",
+  "active": "c0e416f10f2b9a12",
   "lastOpenFiles": [
-    "CloudComputing_info/cloud_platform_service/hekoru_info.md",
     "python/frameworks/25_flask.md",
-    "python/24_pandas.md",
-    "python/Modules/pandas.md",
-    "python/25_flask.md",
-    "python/10.3_exercices.md",
-    "python/python_for_web/static/main.css",
-    "python/python_for_web/static",
-    "python/python_for_web/templates/result.html",
-    "python/python_for_web/templates/post.html",
-    "python/python_for_web/templates/layout.html",
-    "python/python_for_web/templates/home.html",
-    "python/python_for_web/templates/about.html",
-    "python/python_for_web/templates",
-    "python/python_for_web/Procfile",
-    "python/python_for_web/requirements.txt",
-    "python/python_for_web/venv/lib/python3.10/site-packages/idna-3.6.dist-info/LICENSE.md",
-    "python/python_for_web/venv/lib/python3.10/site-packages/flask/sansio/README.md",
-    "python/python_for_web/venv/lib/python3.10/site-packages/werkzeug/debug/shared/more.png",
-    "python/python_for_web/venv/lib/python3.10/site-packages/werkzeug/debug/shared/less.png",
-    "python/python_for_web/venv/lib/python3.10/site-packages/werkzeug/debug/shared/console.png",
-    "python/python_for_web/venv/lib/python3.10/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
-    "OperatingSystem_info/Linux_info/linux_comandos/comando_flujo_servidores.md",
-    "Security_info/segurity_tools/conrtafuegos_ufw.md",
-    "Security_info/NetWork_segurity/seguridad_dnssec.md",
-    "Security_info/segurity_tools/extraer_metadatos.md",
-    "Security_info/seguridad_dnssec.md",
-    "Network_Hardware_Troubleshooting_info/Troubleshooting.md",
-    "Network_Hardware_Troubleshooting_info/Linux_troubleshooting/dispositivos_sistemas_linux_PCI.md",
-    "Network_Hardware_Troubleshooting_info/dispositivos_sistemas_linux_PCI.md",
-    "GIT/github-git-cheat-sheet.md",
-    "Networking_info/NetWorking.md",
-    "Networking_info/Servers_type/servidores_dns.md",
-    "Networking_info/Protocolos_info/deshabilitar_IPv6.md",
-    "Networking_info/Protocolos_info/puertos_para_conexiones_TCP_UDP.md",
-    "OperatingSystem_info/Linux_info/Linux.md",
-    "Networking_info/deshabilitar_IPv6.md",
-    "Bash_script/simbolos_especiales.md",
-    "OperatingSystem_info/Linux_info/crear_archivo_discovirtual.md",
+    "Sin título.canvas",
+    "python/28_building_API.md",
+    "python/26_mongoDB.md",
+    "python/27_RESTful_API.md",
+    "python/19.2_creating_a_packages.md",
+    "SQL/second_lab.md",
+    "SQL/mariadb.md",
+    "SQL/first_lab_sqlinjection.md",
+    "SQL/comandos_mysql.md",
     "python/17.3_characters_above.png",
-    "basics_python/17.3_characters_above.png",
-    "newstaff/17.3_characters_above.png",
-    "Sin título.canvas"
+    "Bash_script/bash_script_basics/02_getting_started/Basic_shell_constructs/Basic_shell_constructs.md",
+    "Bash_script/bash_script_basics/02_getting_started/Basic_shell_constructs/standars_I_O_redirections.md",
+    "Bash_script/bash_script_basics/02_getting_started/Basic_shell_constructs/2.5_Basic_shell_constructs.md",
+    "Bash_script/bash_script_basics/02_getting_started/Basic_shell_constructs/2.5.1_standars_I_O_redirections.md",
+    "Bash_script/bash_script_basics/02_getting_started/Basic_shell_constructs",
+    "Bash_script/bash_script_basics/02_getting_started/self_contained_scripts_First_line.md",
+    "Bash_script/bash_script_basics/02_getting_started/simple_script.md",
+    "Bash_script/bash_script_basics/02_getting_started/why_use_shell_script.md",
+    "Bash_script/bash_script_basics/02_getting_started/scripting_languages_vs_compiled_languages.md",
+    "Bash_script/bash_script_basics/02_getting_started/information.md",
+    "Bash_script/bash_script_basics/01_background/sofware_tools_principles.md",
+    "Bash_script/bash_script_basics/01_background/unix_history.md",
+    "Bash_script/bash_script_basics/01_background/POSIX_and_XSI.md",
+    "Bash_script/bash_script_basics/01_background/information.md",
+    "Bash_script/bash_script_basics/02_getting_started/2.5_Basic_shell_constructs/2.5_Basic_shell_constructs.md",
+    "Bash_script/bash_script_basics/02_getting_started/2.5_Basic_shell_constructs/2.5.1_standars_I_O_redirections.md",
+    "Bash_script/bash_script_basics/02_getting_started/nusers",
+    "Bash_script/bash_script_basics/02_getting_started/2.5_Basic_shell_constructs",
+    "Bash_script/bash_script_basics/02_getting_started/2.4_self_contained_scripts_First_line.md",
+    "Bash_script/bash_script_basics/17_appendix_B_files_and_filesystems",
+    "Bash_script/bash_script_basics/16_appendix_A_writting_manual_pages",
+    "Bash_script/bash_script_basics/15_secure_shell_scripts",
+    "Bash_script/bash_script_basics/14_shell_portability_issues_and_extensions",
+    "Bash_script/bash_script_basics/13_process",
+    "Bash_script/bash_script_basics/12_spellchecking",
+    "Bash_script/bash_script_basics/11_extended_example_merging_user_database",
+    "R/R_representaciones_graficas/plot_2.png",
+    "R/R_representaciones_graficas/plot_1.png",
+    "R/R_representaciones_graficas/hist_2.png",
+    "R/R_representaciones_graficas/hist_1.png",
+    "R/R_representaciones_graficas/rect_1.png",
+    "R/R_representaciones_graficas/pie_3.png",
+    "R/R_representaciones_graficas/pie_2.png",
+    "R/R_representaciones_graficas/pie_1.png",
+    "Networking_info/Protocolos_info/HTTP_Steps.png"
   ]
 }

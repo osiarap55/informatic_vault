@@ -8,77 +8,70 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#frameworks  ",
+      "query": "path:python  ",
       "color": {
         "a": 1,
-        "rgb": 11621088
+        "rgb": 16749716
       }
     },
     {
-      "query": "tag:#modules",
+      "query": "path:R/R_introduction  ",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 16747238
       }
     },
     {
-      "query": "tag:#basics_python  ",
+      "query": "path:CloudComputing_info  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 16709013
       }
     },
     {
-      "query": "tag:#bash_script  ",
+      "query": "path:Networking_info  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 8159486
       }
     },
     {
-      "query": "tag:#git  ",
+      "query": "path:OperatingSystem_info  ",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 11053224
       }
     },
     {
-      "query": "tag:#linux_comandos  ",
+      "query": "path:Bash_script  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 0
       }
     },
     {
-      "query": "tag:#protocolos_informaticos  ",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "tag:#zettelksten_method  ",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "tag:#linux_info  ",
+      "query": "path:GIT  ",
       "color": {
         "a": 1,
         "rgb": 5395168
       }
+    },
+    {
+      "query": "path:obsidian_methods  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": -2.4,
-  "nodeSizeMultiplier": 0.992830403645833,
-  "lineSizeMultiplier": 0.992830403645833,
+  "showArrow": true,
+  "textFadeMultiplier": -2.8,
+  "nodeSizeMultiplier": 1.19739583333333,
+  "lineSizeMultiplier": 0.916666666666667,
   "collapse-forces": false,
-  "centerStrength": 0.208333333333333,
-  "repelStrength": 13.8736979166667,
+  "centerStrength": 0.322998046875,
+  "repelStrength": 20,
   "linkStrength": 0.544026692708333,
   "linkDistance": 143,
   "scale": 0.059326171875,
