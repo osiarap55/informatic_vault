@@ -5,7 +5,7 @@
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:python  ",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "path:R/R_introduction  ",
+      "query": "path:R/",
       "color": {
         "a": 1,
         "rgb": 16747238
@@ -67,13 +67,13 @@
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -2.8,
-  "nodeSizeMultiplier": 1.19739583333333,
-  "lineSizeMultiplier": 0.916666666666667,
+  "nodeSizeMultiplier": 1.27395833333333,
+  "lineSizeMultiplier": 1.50364583333333,
   "collapse-forces": false,
-  "centerStrength": 0.322998046875,
-  "repelStrength": 20,
-  "linkStrength": 0.544026692708333,
-  "linkDistance": 143,
-  "scale": 0.059326171875,
+  "centerStrength": 0.192708333333333,
+  "repelStrength": 19.0625,
+  "linkStrength": 0.833333333333333,
+  "linkDistance": 162,
+  "scale": 0.08181488097495085,
   "close": true
 }

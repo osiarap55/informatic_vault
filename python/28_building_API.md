@@ -39,7 +39,7 @@ To implement this API, we will use:
 
 In this step, let us use dummy data and return it as a json. To return it as json, will use json module and Response module.
 
-```py
+```python
 
 # let's import the flask
 
@@ -358,7 +358,7 @@ if __name__ == '__main__':
 
 ### Deleting a document using Delete
 
-```py
+```python
 
 # let's import the flask
 

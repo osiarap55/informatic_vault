@@ -8,3 +8,4 @@
 #R
 #basics_R
 #representaciones_graficas_R
+#mediadas_posicion_y_dispersion 

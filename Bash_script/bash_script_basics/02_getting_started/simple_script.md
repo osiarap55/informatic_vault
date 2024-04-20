@@ -21,5 +21,5 @@ $ chmod +x nusers 	# make it executable
 ./nusers			# do a test
 	4				# output is the number of users.
 ```
-
+[[nusers]]
 #bash_introduction

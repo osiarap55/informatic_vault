@@ -1,4 +1,4 @@
-## POSIX and XSI
+# POSIX and XSI
 
 ### POSIX
 

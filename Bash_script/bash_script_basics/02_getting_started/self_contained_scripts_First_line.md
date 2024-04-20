@@ -20,6 +20,5 @@
 
 (-) option means that there is not more shell option, just security so prevent spoofing attacks
 
-example [[nusers]]
 
 #bash_introduction
