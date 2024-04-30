@@ -1,0 +1,65 @@
+## como editar el contenido *html* de una pagina web?
+
+ * Toda pagina web tiene un codigo fuente escrito en el lenguage **html**, 
+este codigo fuente puede ser alterado para cambiar la morfologia de la pagina web.
+
+ * **HTML** (Hyper Text Markup Language), para editar html es importante saber los aspectos estructurales de una pagina.
+	* los primeros aspectos estructurales los define el disenador web
+	* Los segundos aspectos estructurales estan relacionados con el lenguje HTML:
+		- por ejemplo la disposicion de la informacion
+		- o la estructura de la pagina
+
+Unas de las principales beneficion de editar en contenido HTML de una pagina web es que lo haces en tiempo real y puedes ver que cambios as hecho y para que sirve cada cosa.
+
+## terminos basicos para editar una pagina web
+
+HTML es un estandar mundial y se usa desde 1989, hay muchos terminos diferente con amplicaciones mas o menos complejas, los tres terminos mas importantes vamos a ver:
+
+### Elementos
+
+HTML es un lenguaje de marcado compuesto por un conjunto de elementos que son la base de su estructura. 
+Estos elementos conforman una caja de herramientas que los editores pueden usar para dar forma a sus documentos.
+ * Por ejemplo:
+	- hay elemetos que insertan parrafos, videos u otros documentos.
+	- hay otros elementos que marcan citas, texto imortante o titulos de libros peliculas... 
+
+#### Como se escriben estos elementos?
+
+Los elementos se reconocen mediante el uso de menor que y mayot que **<** y **>**. Ambos estan al lado del nombre del elemntos.
+ * Por ejemplo:
+								<a>
+
+EL elemento raiz es el propio <html>
+
+### Etiquetas
+
+Un elemento HTML esta compuesto por dos etiquetas, una etiqueta de inicio:
+ * Indica el comienzo de un elemento.	<div>
+Una etiqueta de cierre, 
+ * marca el final de un elemento. </div>
+
+### Atributos
+
+Un elemento puede tener atributos y eventos, siempre y cuando no se trate de un elemento vacio, que no contiene nos secundarios.
+ * Atributos: 
+ 	- Los atributos definen valores o propiedades para ser usasdos por los navegadores en el procesamiento de documentos
+  * Eventos:
+  	- pueden emplearse para especificar comportamientos o acciones a realizar cuando se cumplen ciertas condiciones.
+   		Por ejemplo cuando los usuarios hacen click en un elemento.
+
+#### sintaxis de los atributos
+
+ * generalmente estas compuestos por un nombre y un valor, el valor siempre entre "".
+ 		<elemento nombre_del_atributo="valor">esto es una prueba</elemento>
+ * Los atributos deben insertarse como una lsita de elementos separados por espacios dentro de la etiqueta estrella.
+
+ * ejemplo:
+
+ un elemento <a> que incluye el atributo **href** (indica la URL del recurso) y el valor que sera la url.
+ 		<a href="https://ejemplo.com/">Ejemplo</a>
+   
+
+
+
+
+
