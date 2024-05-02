@@ -160,6 +160,9 @@
   },
   "active": "ddcdc3afb41b7ffe",
   "lastOpenFiles": [
+    "HTML_info/editar_pagina_web_HTML",
+    "HTML_info",
+    "editar_pagina_web_HTML",
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/matching_specific_lines_sed.md",
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/substitution_details_sed.md",
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/sed_operation.md",
@@ -181,9 +184,7 @@
     "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/distribucion_binomial_R.md",
     "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/dist_binomial.png",
     "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/hist_binomial.png",
-    "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/distribucion_binomial_R",
     "R/R_language.md",
-    "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos",
     "R/modelos_probabilisticos_R/funciones_basicas_de_R_en_probabilidades.md",
     "R/funciones_basicas_de_R_en_probabilidades.md",
     "R/R_representaciones_graficas/precision_por_minimos_cuadrados.md",
@@ -205,7 +206,6 @@
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_extended_regular_expression.md",
     "Bash_script/bash_script_basics/03_searching_and_substitution/searching_for_text/simple_grep.md",
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/BRE_operator_precedence.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/anchoring_text_matches.md",
     "Sin título.canvas"
   ]
 }
