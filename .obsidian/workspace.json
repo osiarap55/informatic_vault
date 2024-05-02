@@ -82,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/distribucion_binomial_R.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/distribucion_binomial_R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/distribucion_binomial_R.md"
-              }
+              "state": {}
             }
           },
           {
@@ -162,46 +158,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "8240b10a59a39996",
-    "type": "floating",
-    "children": [
-      {
-        "id": "66a1c429352a2d0e",
-        "type": "window",
-        "children": [
-          {
-            "id": "82c5864e493bd44c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e9acf38d3b8f4446",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/distribucion_binomial_R.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 960,
-        "height": 1080,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "e9acf38d3b8f4446",
+  "active": "ddcdc3afb41b7ffe",
   "lastOpenFiles": [
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/matching_specific_lines_sed.md",
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/substitution_details_sed.md",
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/sed_operation.md",
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/sed_command.md",
+    "C++/algoritmos",
+    "C++/estructuras_de_datos",
+    "C++/subprogramas",
+    "C++/control_del_flujo_del_programa",
+    "C++/asignaciones_y_expressiones",
+    "C++/variables_y_tipos_de_datos",
+    "C++/introduccion_C++",
+    "C++",
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/which_programs_use_regular_expression?.md",
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/regular_expression_extensions.md",
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_operator_precedence.md",
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_grouping.md",
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_anchoring_text_matches.md",
+    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_alternation.md",
     "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/distribucion_binomial_R.md",
     "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/dist_binomial.png",
     "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos/hist_binomial.png",
@@ -209,7 +185,6 @@
     "R/R_language.md",
     "R/modelos_probabilisticos_R/modelos_unidimensionales_discretos",
     "R/modelos_probabilisticos_R/funciones_basicas_de_R_en_probabilidades.md",
-    "R/modelos_probabilisticos_R",
     "R/funciones_basicas_de_R_en_probabilidades.md",
     "R/R_representaciones_graficas/precision_por_minimos_cuadrados.md",
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_matching_multiple_characters_with_one_expression.md",
@@ -224,8 +199,6 @@
     "R/R_representaciones_graficas/nubes_5.png",
     "R/R_representaciones_graficas/nubes_4.png",
     "R/R_representaciones_graficas/nubes_3.png",
-    "R/R_representaciones_graficas/diagrama_barras_3d.png.crdownload",
-    "R/R_representaciones_graficas/hist_tridimensional.png.crdownload",
     "R/R_representaciones_graficas/distribuciones_unidimensionales_de_frecuencias.md",
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/backreferences.md",
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/backreferences_donnot_exits.md",
@@ -233,20 +206,6 @@
     "Bash_script/bash_script_basics/03_searching_and_substitution/searching_for_text/simple_grep.md",
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/BRE_operator_precedence.md",
     "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/anchoring_text_matches.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/matching_multiple_characters_with_one_expression.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/matching_single_characters.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/POSIX_bracket_expressions.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/BRE_basic_regular_expression.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/what_is_regular_expression?.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/posix_character_classes.pmg",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/POSIX_BRE_ERE_metacharacters1.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/3158.1557332921.png.crdownload",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/grep_command.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/regular_expressions.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions/regular_expresswions.md",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/working_with_fields",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/regular_expresions",
-    "Bash_script/bash_script_basics/03_searching_and_substitution/searching_for_text",
     "Sin título.canvas"
   ]
 }
