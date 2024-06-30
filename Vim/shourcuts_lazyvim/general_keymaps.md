@@ -1,6 +1,6 @@
 
 | `Key`                | `Description`                           | `Mode`               |     |
-| ------------------ | ------------------------------------- | ------------------ | --- |
+| -------------------- | --------------------------------------- | -------------------- | --- |
 | `j`                  | `Down`                                  | `n, x`               |     |
 | `<Down>`             | `Down`                                  | `n, x`               |     |
 | `k`                  | `Up`                                    | `n, x`               |     |
@@ -76,9 +76,9 @@
 | `<leader>ww`         | `Other Window`                          | `n`                  |     |
 | `<leader>wd`         | `Delete Window`                         | `n`                  |     |
 | `<leader>w-`         | `Split Window Below`                    | `n`                  |     |
-| `<leader>w`          |                                       | `Split Window Right` | `n`   |
+| `<leader>w`          | `Split Window Right`                | `n`                   |  |
 | `<leader>-`          | `Split Window Below`                    | `n`                  |     |
-| `<leader>`           |                                       | `Split Window Right` | `n`   |
+| `<leader>`           |  `Split Window Right` | `n`                                        | |
 | `<leader>wm`         | `Maximize Toggle`                       | `n`                  |     |
 | `<leader><tab>l`     | `Last Tab`                              | `n`                  |     |
 | `<leader><tab>o`     | `Close Other Tabs`                      | `n`                  |     |
