@@ -1,98 +1,76 @@
-# 📂 Estructura del Proyecto — Bash Script Basics
+# 📂 Bash Script Basics (GitHub – README en raíz)
 
-Este índice muestra todos los archivos enlazados con `[[wikilinks]]` para navegación en Obsidian.  
-Cada sección incluye una breve explicación.  
+Índice de archivos con enlaces Markdown estándar. El texto visible es **solo el nombre del archivo**.
 
----
 
-## 01 — Background  
+## 01 — Background
 
-Conceptos fundamentales antes de escribir scripts.  
+- [POSIX_and_XSI.md](bash_script_basics/01_background/POSIX_and_XSI.md) → Estándares POSIX y X/Open.
+- [information_background.md](bash_script_basics/01_background/information_background.md) → Información general sobre el contexto.
+- [sofware_tools_principles.md](bash_script_basics/01_background/sofware_tools_principles.md) → Sofware tools principles.
+- [unix_history.md](bash_script_basics/01_background/unix_history.md) → Breve historia de Unix y su evolución.
 
-- [[information_background]] → Información general sobre el contexto.  
-- [[POSIX_and_XSI]] → Estándares POSIX y X/Open.  
-- [[sofare_tools_principles]] → Principios de diseño de herramientas de software.  
-- [[unix_history]] → Breve historia de Unix y su evolución.  
+## 02 — Getting started
 
----
+- [Internationalization_and_localization.md](bash_script_basics/02_getting_started/Internationalization_and_localization.md) → Internacionalización y localización.
+- [accesing_shell_script_arguments.md](bash_script_basics/02_getting_started/accesing_shell_script_arguments.md) → Cómo acceder a argumentos en scripts.
+- [information_getting_started.md](bash_script_basics/02_getting_started/information_getting_started.md) → Conceptos básicos de arranque.
+- [scripting_languages_vs_compiled_languages.md](bash_script_basics/02_getting_started/scripting_languages_vs_compiled_languages.md) → Interpretados vs. compilados.
+- [self_contained_scripts_First_line.md](bash_script_basics/02_getting_started/self_contained_scripts_First_line.md) → Importancia del shebang.
+- [simple_executing_tracing.md](bash_script_basics/02_getting_started/simple_executing_tracing.md) → Ejecución y trazado simple.
+- [simple_script.md](bash_script_basics/02_getting_started/simple_script.md) → Ejemplo de script sencillo.
+- [why_use_shell_script.md](bash_script_basics/02_getting_started/why_use_shell_script.md) → Razones para usar shell scripting.
 
-## 02 — Getting Started  
+**Basic_shell_constructs/**
+- [Basic_command_searching.md](bash_script_basics/02_getting_started/Basic_shell_constructs/Basic_command_searching.md) → Búsqueda y localización de comandos.
+- [Basic_shell_constructs.md](bash_script_basics/02_getting_started/Basic_shell_constructs/Basic_shell_constructs.md) → Construcciones básicas del shell.
+- [basics_I_O_redirections.md](bash_script_basics/02_getting_started/Basic_shell_constructs/basics_I_O_redirections.md) → Redirecciones de entrada/salida.
+- [commands_and_arguments.md](bash_script_basics/02_getting_started/Basic_shell_constructs/commands_and_arguments.md) → Manejo de comandos y argumentos.
+- [devnull_and_devtty.md](bash_script_basics/02_getting_started/Basic_shell_constructs/devnull_and_devtty.md) → Uso de /dev/null y /dev/tty.
+- [devtty.sh](bash_script_basics/02_getting_started/Basic_shell_constructs/devtty.sh) → Explicación práctica de /dev/tty (script).
+- [echo_command.md](bash_script_basics/02_getting_started/Basic_shell_constructs/echo_command.md) → Uso del comando echo.
+- [redirections_and_pipelines.md](bash_script_basics/02_getting_started/Basic_shell_constructs/redirections_and_pipelines.md) → Redirecciones y tuberías.
+- [tr_command.md](bash_script_basics/02_getting_started/Basic_shell_constructs/tr_command.md) → Transformaciones de texto con tr.
+- [variables.md](bash_script_basics/02_getting_started/Basic_shell_constructs/variables.md) → Variables en el shell.
 
-Primeros pasos con shell scripting.  
+## 03 — Searching and substitution
 
-- [[accesing_shell_script_arguments]] → Cómo acceder a argumentos en scripts.  
+- [info_searching_and_substitutions.md](bash_script_basics/03_searching_and_substitution/info_searching_and_substitutions.md) → Introducción a búsquedas y sustituciones.
 
-**Basic_shell_constructs/**  
+**regular_expresions/**
+- [BRE_basic_regular_expression.md](bash_script_basics/03_searching_and_substitution/regular_expresions/BRE_basic_regular_expression.md) → BRE básicas.
+- [BRE_operator_precedence.md](bash_script_basics/03_searching_and_substitution/regular_expresions/BRE_operator_precedence.md) → Precedencia en BRE.
+- [ERE_alternation.md](bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_alternation.md) → Alternación en ERE.
+- [ERE_anchoring_text_matches.md](bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_anchoring_text_matches.md) → Anclaje en ERE.
+- [ERE_extended_regular_expression.md](bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_extended_regular_expression.md) → ERE extendidas.
+- [ERE_grouping.md](bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_grouping.md) → Agrupación en ERE.
+- [ERE_matching_multiple_characters_with_one_expression.md](bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_matching_multiple_characters_with_one_expression.md) → Coincidencias múltiples con una expresión.
+- [ERE_matching_single_characters.md](bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_matching_single_characters.md) → Coincidencias de un carácter.
+- [ERE_operator_precedence.md](bash_script_basics/03_searching_and_substitution/regular_expresions/ERE_operator_precedence.md) → Precedencia en ERE.
+- [POSIX_BRE_ERE_metacharacters.png](bash_script_basics/03_searching_and_substitution/regular_expresions/POSIX_BRE_ERE_metacharacters.png) → POSIX BRE ERE metacharacters. (imagen)
+- [POSIX_BRE_ERE_metacharacters1.png](bash_script_basics/03_searching_and_substitution/regular_expresions/POSIX_BRE_ERE_metacharacters1.png) → POSIX BRE ERE metacharacters1. (imagen)
+- [POSIX_bracket_expressions.md](bash_script_basics/03_searching_and_substitution/regular_expresions/POSIX_bracket_expressions.md) → Corchetes POSIX.
+- [anchoring_text_matches.md](bash_script_basics/03_searching_and_substitution/regular_expresions/anchoring_text_matches.md) → Uso de anclas en regex.
+- [backreferences.md](bash_script_basics/03_searching_and_substitution/regular_expresions/backreferences.md) → Uso de backreferences.
+- [backreferences_donnot_exits.md](bash_script_basics/03_searching_and_substitution/regular_expresions/backreferences_donnot_exits.md) → Backreferences inexistentes.
+- [grep_command.md](bash_script_basics/03_searching_and_substitution/regular_expresions/grep_command.md) → Uso de grep.
+- [matching_multiple_characters_with_one_expression.md](bash_script_basics/03_searching_and_substitution/regular_expresions/matching_multiple_characters_with_one_expression.md) → Múltiples caracteres en una expresión.
+- [matching_single_characters.md](bash_script_basics/03_searching_and_substitution/regular_expresions/matching_single_characters.md) → Coincidencias de un solo carácter.
+- [matching_specific_lines_sed.md](bash_script_basics/03_searching_and_substitution/regular_expresions/matching_specific_lines_sed.md) → Líneas específicas con sed.
+- [posix_character_classes.png](bash_script_basics/03_searching_and_substitution/regular_expresions/posix_character_classes.png) → Posix character classes. (imagen)
+- [regular_expression_extensions.md](bash_script_basics/03_searching_and_substitution/regular_expresions/regular_expression_extensions.md) → Extensiones de regex.
+- [regular_expressions.md](bash_script_basics/03_searching_and_substitution/regular_expresions/regular_expressions.md) → Introducción a expresiones regulares.
+- [sed_command.md](bash_script_basics/03_searching_and_substitution/regular_expresions/sed_command.md) → Comando sed.
+- [sed_operation.md](bash_script_basics/03_searching_and_substitution/regular_expresions/sed_operation.md) → Operaciones con sed.
+- [substitution_details_sed.md](bash_script_basics/03_searching_and_substitution/regular_expresions/substitution_details_sed.md) → Detalles de sustitución con sed.
+- [what_is_regular_expression.md](bash_script_basics/03_searching_and_substitution/regular_expresions/what_is_regular_expression.md) → Qué es una expresión regular.
+- [which_programs_use_regular_expression.md](bash_script_basics/03_searching_and_substitution/regular_expresions/which_programs_use_regular_expression.md) → Programas que usan regex.
 
-- [[Basic_command_searching]] → Búsqueda y localización de comandos.  
-- [[Basic_shell_constructs]] → Construcciones básicas del shell.  
-- [[basics_I_O_redirections]] → Redirecciones de entrada y salida.  
-- [[commands_and_arguments]] → Manejo de comandos y argumentos.  
-- [[devnull_and_devtty]] → Uso de `/dev/null` y `/dev/tty`.  
-- [[devtty]] → Explicación de `/dev/tty`.  
-- [[echo_command]] → Uso del comando `echo`.  
-- [[redirections_and_pipelines]] → Redirecciones y tuberías.  
-- [[tr_command]] → Transformaciones de texto con `tr`.  
-- [[variables]] → Variables en el shell.  
+**searching_for_text/**
+- [searching_for_text.md](bash_script_basics/03_searching_and_substitution/searching_for_text/searching_for_text.md) → Búsqueda básica de texto.
+- [simple_grep.md](bash_script_basics/03_searching_and_substitution/searching_for_text/simple_grep.md) → Uso básico de grep.
 
-Otros archivos:  
+**working_with_fields/**
+- [working_with_fields.md](bash_script_basics/03_searching_and_substitution/working_with_fields/working_with_fields.md) → Working with fields.
 
-- [[finduser]] → Ejemplo de búsqueda de usuarios.  
-- [[information_getting_started]] → Conceptos básicos de arranque.  
-- [[Internationalization_and_localization]] → Internacionalización y localización.  
-- [[nusers]] → Comando `nusers` para contar usuarios conectados.  
-- [[scripting_languages_vs_compiled_languages]] → Diferencias entre lenguajes interpretados y compilados.  
-- [[self_contained_scripts_First_line]] → Importancia del shebang en la primera línea.  
-- [[simple_executing_tracing]] → Ejecución y trazado simple de scripts.  
-- [[simple_script]] → Ejemplo de script simple.  
-- [[why_use_shell_script]] → Razones para usar shell scripting.  
-
----
-
-## 03 — Searching and Substitution  
-
-Búsqueda de texto, expresiones regulares y sustituciones.  
-
-- [[info_searching_and_substitutions]] → Introducción a búsquedas y sustituciones.  
-
-**regular_expresions/**  
-
-- [[anchoring_text_matches]] → Uso de anclas en regex.  
-- [[backreferences_donnot_exits]] → Backreferences inexistentes.  
-- [[backreferences]] → Uso de backreferences.  
-- [[BRE_basic_regular_expression]] → Expresiones regulares básicas (BRE).  
-- [[BRE_operator_precedence]] → Precedencia en BRE.  
-- [[ERE_alternation]] → Alternación en ERE.  
-- [[ERE_anchoring_text_matches]] → Anclaje en ERE.  
-- [[ERE_extended_regular_expression]] → Expresiones regulares extendidas.  
-- [[ERE_grouping]] → Agrupación en ERE.  
-- [[ERE_matching_multiple_characters_with_one_expression]] → Coincidencias múltiples con una expresión.  
-- [[ERE_matching_single_characters]] → Coincidencias de un solo carácter.  
-- [[ERE_operator_precedence]] → Precedencia en ERE.  
-- [[grep_command]] → Uso de `grep`.  
-- [[matching_multiple_characters_with_one_expression]] → Coincidencias de múltiples caracteres.  
-- [[matching_single_characters]] → Coincidencias de un solo carácter.  
-- [[matching_specific_lines_sed]] → Coincidencia de líneas específicas con `sed`.  
-- [[POSIX_bracket_expressions]] → Expresiones de corchetes POSIX.  
-- [[POSIX_BRE_ERE_metacharacters1]] → Metacaracteres BRE/ERE (imagen).  
-- [[POSIX_BRE_ERE_metacharacters]] → Tabla de metacaracteres BRE/ERE.  
-- [[posix_character_classes]] → Clases de caracteres POSIX.  
-- [[regular_expression_extensions]] → Extensiones de regex.  
-- [[regular_expressions]] → Introducción a expresiones regulares.  
-- [[sed_command]] → Comando `sed`.  
-- [[sed_operation]] → Operaciones comunes con `sed`.  
-- [[substitution_details_sed]] → Detalles de sustitución con `sed`.  
-- [[what_is_regular_expression]] → Qué son las expresiones regulares.  
-- [[which_programs_use_regular_expression]] → Programas que usan regex.  
-
-**searching_for_text/**  
-
-- [[searching_for_text]] → Búsqueda básica de texto.  
-- [[simple_grep]] → Uso básico de `grep`.  
-
----
-
-## Archivos sueltos  
-
-- [[Readme_estructure]] → Índice general del proyecto.  
-- [[simbolos_especiales]] → Referencia de símbolos especiales en shell scripting.  
+## Archivos sueltos
