@@ -1,6 +1,6 @@
-# 📂 Bash Script Basics (GitHub – README en raíz)
+# 📂 Bash Script Basics
 
-Índice de archivos con enlaces Markdown estándar. El texto visible es **solo el nombre del archivo**.
+Índice de archivos con enlaces compatibles tanto con **GitHub** como con **Obsidian**.
 
 
 ## 01 — Background

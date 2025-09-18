@@ -3,11 +3,9 @@ set -euo pipefail
 
 # ── Config ────────────────────────────────────────────────────────────────────
 BASE_DIR="bash_script_basics"
-OUT_GH="Readme_estructure.md"
-OUT_OB="Readme_estructure_obsidian.md"
+OUT="Readme_estructure.md"
 
 # Descripciones opcionales (clave = nombre base del archivo SIN extensión)
-# Añade o modifica lo que quieras aquí. Si no hay entrada, se genera una descripción automática.
 declare -A DESC=(
   [information_background]="Información general sobre el contexto."
   [POSIX_and_XSI]="Estándares POSIX y X/Open."
@@ -75,129 +73,77 @@ title_from_dir() { # "02_getting_started" → "02 — Getting Started"
   printf "%s — %s" "$num" "$(tr '[:lower:]' '[:upper:]' <<<"${rest:0:1}")${rest:1}"
 }
 
-desc_for() { # clave sin extensión → descripción
+desc_for() {
   local key="$1"
   if [[ -n "${DESC[$key]+_}" ]]; then
     printf "%s" "${DESC[$key]}"
   else
-    # Descripción automática: nombre bonito a partir del archivo
     local s="${key//_/ }"
     s="$(tr '[:lower:]' '[:upper:]' <<<"${s:0:1}")${s:1}"
     printf "%s." "$s"
   fi
 }
 
-# imprime una línea de item para GH (nombre visible = solo archivo)
-gh_item() { # ruta_relativa_desde_base
+item() { # ruta_relativa_desde_base
   local rel="$1"
   local base="$(basename "$rel")"
-  local name="${base}"
   local key="${base%.*}"
   local link="${BASE_DIR}/${rel}"
   local extra=""
   case "$base" in
   *.png | *.jpg | *.jpeg | *.gif) extra=" (imagen)" ;;
-  *.sh) ;; # nada
   esac
-  printf -- "- [%s](%s) → %s%s\n" "$name" "$link" "$(desc_for "$key")" "$extra"
+  printf -- "- [%s](%s) → %s%s\n" "$base" "$link" "$(desc_for "$key")" "$extra"
 }
 
-# imprime una línea de item para Obsidian (wikilink mostrando solo el nombre)
-ob_item() { # ruta_relativa_desde_base
-  local rel="$1"
-  local base="$(basename "$rel")"
-  local key="${base%.*}"
-  # Wikilink con alias: [[ruta/sin .md | nombre.ext]]
-  local without_ext="${rel%.*}"
-  printf -- "- [[%s|%s]] → %s\n" "${BASE_DIR}/${without_ext}" "$base" "$(desc_for "$key")"
-}
-
-# lista los ficheros directos del dir dado
-list_files() { # dir_relativo_desde_base  callback
-  local d="$1" cb="$2"
+list_files() {
+  local d="$1"
   find "${BASE_DIR}/${d}" -maxdepth 1 -type f \( -name "*.md" -o -name "*.sh" -o -name "*.png" \) \
     -printf "%P\n" | LC_ALL=C sort | while read -r f; do
-    # %P devuelve ruta relativa a BASE_DIR/d; rearmamos
-    "$cb" "${d}/${f}"
+    item "${d}/${f}"
   done
 }
 
-# lista subdirectorios de primer nivel (para secciones como Basic_shell_constructs/)
-list_subdirs() { # dir_relativo_desde_base
+list_subdirs() {
   find "${BASE_DIR}/${1}" -mindepth 1 -maxdepth 1 -type d -printf "%P\n" | LC_ALL=C sort
 }
 
-# ── Generación GH ──────────────────────────────────────────────────────────────
-gen_github() {
+# ── Generación README único ──────────────────────────────────────────────────
+gen_readme() {
   {
-    echo "# 📂 Bash Script Basics (GitHub – README en raíz)"
+    echo "# 📂 Bash Script Basics"
     echo
-    echo "Índice de archivos con enlaces Markdown estándar. El texto visible es **solo el nombre del archivo**."
+    echo "Índice de archivos con enlaces compatibles tanto con **GitHub** como con **Obsidian**."
     echo
-    # Recorremos secciones 01_*, 02_*, 03_*, en orden
+
     find "$BASE_DIR" -mindepth 1 -maxdepth 1 -type d -name "[0-9][0-9]_*" | LC_ALL=C sort | while read -r sec; do
       local_dir="$(basename "$sec")"
       echo
       echo "## $(title_from_dir "$local_dir")"
       echo
 
-      # Archivos directos en la sección
-      list_files "$local_dir" gh_item
-
-      # Subdirectorios (e.g., Basic_shell_constructs, regular_expresions, searching_for_text)
-      for sub in $(list_subdirs "$local_dir"); do
-        echo
-        echo "**${sub}/**"
-        list_files "$local_dir/$sub" gh_item
-      done
-    done
-
-    # Archivos sueltos en la raíz de BASE_DIR
-    echo
-    echo "## Archivos sueltos"
-    find "$BASE_DIR" -maxdepth 1 -type f -name "*.md" -printf "%P\n" | LC_ALL=C sort | while read -r f; do
-      gh_item "$f"
-    done
-  } >"$OUT_GH"
-}
-
-# ── Generación Obsidian ───────────────────────────────────────────────────────
-gen_obsidian() {
-  {
-    echo "# 📂 Bash Script Basics (Obsidian – wikilinks)"
-    echo
-    echo "Enlaces con wikilinks mostrando **solo el nombre del archivo** (con alias)."
-    echo
-    find "$BASE_DIR" -mindepth 1 -maxdepth 1 -type d -name "[0-9][0-9]_*" | LC_ALL=C sort | while read -r sec; do
-      local_dir="$(basename "$sec")"
-      echo
-      echo "## $(title_from_dir "$local_dir")"
-      echo
-
-      list_files "$local_dir" ob_item
+      list_files "$local_dir"
 
       for sub in $(list_subdirs "$local_dir"); do
         echo
         echo "**${sub}/**"
-        list_files "$local_dir/$sub" ob_item
+        list_files "$local_dir/$sub"
       done
     done
 
     echo
     echo "## Archivos sueltos"
     find "$BASE_DIR" -maxdepth 1 -type f -name "*.md" -printf "%P\n" | LC_ALL=C sort | while read -r f; do
-      ob_item "$f"
+      item "$f"
     done
-  } >"$OUT_OB"
+  } >"$OUT"
 }
 
-# ── Run ───────────────────────────────────────────────────────────────────────
+# ── Run ──────────────────────────────────────────────────────────────────────
 [[ -d "$BASE_DIR" ]] || {
   echo "No encuentro ${BASE_DIR}/ en $(pwd)"
   exit 1
 }
-gen_github
-gen_obsidian
-echo "OK ✔  Generados:"
-echo " - $OUT_GH"
-echo " - $OUT_OB"
+gen_readme
+echo "OK ✔  Generado:"
+echo " - $OUT"
