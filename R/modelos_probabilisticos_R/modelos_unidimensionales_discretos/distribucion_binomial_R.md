@@ -54,3 +54,4 @@ Si queremos representar la funcion de la distribucion de la B(5,0.33) ejecutaria
 ```
 
 ![dist_binomial](dist_binomial.png)
+#representaciones_graficas_R 
