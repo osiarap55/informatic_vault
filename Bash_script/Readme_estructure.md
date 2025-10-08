@@ -71,6 +71,11 @@
 - [simple_grep.md](bash_script_basics/03_searching_and_substitution/searching_for_text/simple_grep.md) → Uso básico de grep.
 
 **working_with_fields/**
+- [cut_comand.md](bash_script_basics/03_searching_and_substitution/working_with_fields/cut_comand.md) → Cut comand.
+- [join_command.md](bash_script_basics/03_searching_and_substitution/working_with_fields/join_command.md) → Join command.
+- [joining_fields_with_join.md](bash_script_basics/03_searching_and_substitution/working_with_fields/joining_fields_with_join.md) → Joining fields with join.
+- [selecting_fields_with_cut.md](bash_script_basics/03_searching_and_substitution/working_with_fields/selecting_fields_with_cut.md) → Selecting fields with cut.
+- [text_file_conventions.md](bash_script_basics/03_searching_and_substitution/working_with_fields/text_file_conventions.md) → Text file conventions.
 - [working_with_fields.md](bash_script_basics/03_searching_and_substitution/working_with_fields/working_with_fields.md) → Working with fields.
 
 ## Archivos sueltos
