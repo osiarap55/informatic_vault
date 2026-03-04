@@ -28,6 +28,5 @@ display(data_pandas)
 display(data_pandas[data_pandas.Age > 26])
 ```
 
- #esential_libraries_and_tools
 
-[[24_pandas.md]]
+#modules 

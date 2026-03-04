@@ -32,4 +32,4 @@ eye_coo = sparse.coo_matrix((data, (row_indices, col_indices)))
 print("\nCOO representation:\n", eye_coo)
 ```
 
- #esential_libraries_and_tools
+ #modules 

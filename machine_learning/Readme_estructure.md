@@ -26,9 +26,21 @@
 
 - [2.0.introduccion_supervised_learning.md](./02_supervised_learning/2.0.introduccion_supervised_learning.md) → 2.0.introduccion supervised learning.
 - [2.1.classification_and_regression.md](./02_supervised_learning/2.1.classification_and_regression.md) → 2.1.classification and regression.
+- [2.2.0.generalization_overfitting_underfitting.md](./02_supervised_learning/2.2.0.generalization_overfitting_underfitting.md) → 2.2.0.generalization overfitting underfitting.
 - [2.2.1.relation_of_model_complexity_to_dataset_size.md](./02_supervised_learning/2.2.1.relation_of_model_complexity_to_dataset_size.md) → 2.2.1.relation of model complexity to dataset size.
-- [2.2.generalization_overfitting_underfitting.md](./02_supervised_learning/2.2.generalization_overfitting_underfitting.md) → 2.2.generalization overfitting underfitting.
-- [2.3.supervised_machine_learning_algorithms.md](./02_supervised_learning/2.3.supervised_machine_learning_algorithms.md) → 2.3.supervised machine learning algorithms.
+- [2.3.0.supervised_machine_learning_algorithms.md](./02_supervised_learning/2.3.0.supervised_machine_learning_algorithms.md) → 2.3.0.supervised machine learning algorithms.
+- [2.3.1.some_sample_dataset.md](./02_supervised_learning/2.3.1.some_sample_dataset.md) → 2.3.1.some sample dataset.
+- [2.3.2.k-nearesst_neighbors.md](./02_supervised_learning/2.3.2.k-nearesst_neighbors.md) → 2.3.2.k-nearesst neighbors.
+- [analyzing_Kneighbors_classifier.md](./02_supervised_learning/analyzing_Kneighbors_classifier.md) → Analyzing Kneighbors classifier.
+- [comparation_training_test.png](./02_supervised_learning/comparation_training_test.png) → Comparation training test. (imagen)
+- [different_values_n_neighbors.png](./02_supervised_learning/different_values_n_neighbors.png) → Different values n neighbors. (imagen)
+- [forge_plot.png](./02_supervised_learning/forge_plot.png) → Forge plot. (imagen)
+- [forge_plot_3-nearest_neighbor.png](./02_supervised_learning/forge_plot_3-nearest_neighbor.png) → Forge plot 3-nearest neighbor. (imagen)
+- [forge_plot_k-nearest_neighbor.png](./02_supervised_learning/forge_plot_k-nearest_neighbor.png) → Forge plot k-nearest neighbor. (imagen)
+- [supervised_machine.py](./02_supervised_learning/supervised_machine.py) → Supervised machine. (script)
+- [wave_plot.png](./02_supervised_learning/wave_plot.png) → Wave plot. (imagen)
+
+**cache/**
 
 ## Archivos sueltos
 - [Readme_estructure.md](./Readme_estructure.md) → Readme estructure.

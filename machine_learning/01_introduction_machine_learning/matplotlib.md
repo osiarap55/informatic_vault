@@ -19,4 +19,4 @@ plt.savefig("plot.png", dpi=150, bbox_inches="tight")
 
 ![plot](informatic_vault/machine_learning/01_introduction_machine_learning/plot.png)
 
- #esential_libraries_and_tools
+ #modules 
